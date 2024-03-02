@@ -66,9 +66,18 @@ int main()
         }
         std::cout << "\n";
     } 
-
+    for (int i=0; i<m; i++)
+    {
+        delete A[i];
+        A[i]=NULL;
+    }
     delete A;
     A=NULL;
+    for (int i=0; i<m+1; i++)
+    {
+        delete D[i];
+        D[i]=NULL;
+    }
     delete D;
     D=NULL;
     return 0;
