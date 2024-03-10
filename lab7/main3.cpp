@@ -74,7 +74,7 @@ int main()
     
     cout << "\nIndex of elem in B array: " << pereborSearch(B,elem,c) << "\n";
     cout << "Number of comprassions with pereborSearch: " << c << "\n";
-    binarySearch(A,elem,c);
+    binarySearch(B,elem,c);
     cout << "Number of comprassions with binarySearch: " << c << "\n";
     return 0;
 }
