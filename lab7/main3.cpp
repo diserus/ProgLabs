@@ -38,7 +38,7 @@ int binarySearch(vector<int>& A, int &elem, int& c)
 
     while (l <= r) 
     {
-        c++;
+        c+=2;
         int i = l + (r - l) / 2;
 
         if (A[i] == elem) 
