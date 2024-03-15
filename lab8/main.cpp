@@ -48,6 +48,5 @@ int main()
         << "Number of applicants to the university: " << schools[indexArr[i]].numberOfUniver << "\n"
         << "Procent of applicants: " << schools[indexArr[i]].procent <<"\n\n";
     }
-    for (int i : indexArr) cout << i << " ";
     return 0;
 }
